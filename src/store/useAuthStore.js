@@ -65,5 +65,9 @@ export const useAuthStore = create((set)=>({
           set({ isLoggingIn: false });
         }
       },
+
+    updateprofile: async (data) => {
+
+    },
     
 }))
